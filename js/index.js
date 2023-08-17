@@ -39,7 +39,7 @@ const lang = url.get("Lang")
 
 
 const $lang = localStorage.getItem("lang");
-axios.get("../data/data.json")
+axios.get("data/data.json")
 .then(function(res){
     
     if($lang == "en"){      

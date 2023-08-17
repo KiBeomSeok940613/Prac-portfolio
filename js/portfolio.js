@@ -132,7 +132,7 @@ $cateList.forEach((e,i)=>{
         })
         const $attr = e.getAttribute("data-type");
         
-        axios.get("../data/data.json")
+        axios.get("data/data.json")
         .then(function(res){
             let portData;
             if($attr === "전체"){
